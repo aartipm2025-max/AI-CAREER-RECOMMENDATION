@@ -1,0 +1,46 @@
+stream,degree,domain,industry
+Science,Bachelor of Science (Data Science),Data Science & AI,Technology
+Science,Bachelor of Technology (Artificial Intelligence),Data Science & AI,Technology
+Science,"Bachelor of Medicine, Bachelor of Surgery (MBBS)",Healthcare,Healthcare
+Science,Bachelor of Science (Biotechnology),Biotechnology,Life Sciences
+Science,Bachelor of Technology (Computer Science & Engineering),Technology,Technology
+Science,Bachelor of Science (Nursing),Healthcare,Healthcare
+Science,Bachelor of Pharmacy (BPharm),Healthcare,Healthcare
+Science,Bachelor of Science (Physiotherapy),Healthcare,Healthcare
+Science,Bachelor of Technology (Mechanical Engineering),Technology,Technology
+Science,Bachelor of Technology (Civil Engineering),Technology,Technology
+Science,Bachelor of Technology (Electronics & Communication Engineering),Technology,Technology
+Science,Bachelor of Science (Cyber Security),Technology,Technology
+Science,Bachelor of Science (Agriculture),Life Sciences,Life Sciences
+Science,Bachelor of Architecture (BArch),Design,Construction
+Science,Bachelor of Science (Forensic Science),Science & Research,Research
+Commerce,Chartered Accountancy (CA),Finance & Accounting,Finance
+Commerce,Bachelor of Commerce (BCom),Business,Corporate
+Commerce,Bachelor of Business Administration (BBA),Management,Corporate
+Commerce,Bachelor of Management Studies (BMS),Management,Corporate
+Commerce,Company Secretary (CS),Corporate Governance,Corporate
+Commerce,Bachelor of Commerce (Finance and Accountancy),Finance & Accounting,Finance
+Commerce,Bachelor of Financial Markets (BFM),Finance & Accounting,Finance
+Commerce,Bachelor of Banking and Insurance (BBI),Finance & Accounting,Banking
+Commerce,Bachelor of Business Administration (International Business),Management,International Trade
+Commerce,Bachelor of Commerce (Digital Marketing),Business,Marketing
+Commerce,Bachelor of Business Administration (HR Management),Management,Corporate
+Commerce,Bachelor of Business Administration (Supply Chain Management),Management,Logistics
+Commerce,Bachelor of Commerce (Information Technology),Technology,Technology
+Commerce,Bachelor of Commerce (Actuarial Science),Finance & Accounting,Insurance
+Commerce,Bachelor of Business Administration (Entrepreneurship),Business,Startup
+Arts,Bachelor of Arts (Economics),Economics,Finance
+Arts,Bachelor of Arts (Psychology),Psychology,Healthcare
+Arts,Bachelor of Laws (LLB),Law,Legal
+Arts,Bachelor of Design (BDes),Design,Creative
+Arts,Bachelor of Arts (Journalism),Media & Communication,Media
+Arts,Bachelor of Arts (Sociology),Humanities,Social Services
+Arts,Bachelor of Arts (Political Science),Humanities,Public Service
+Arts,Bachelor of Arts (History),Humanities,Education
+Arts,Bachelor of Arts (English Literature),Humanities,Education
+Arts,Bachelor of Fine Arts (BFA),Creative,Media
+Arts,Bachelor of Mass Media (BMM),Media & Communication,Media
+Arts,Bachelor of Arts (Public Administration),Public Service,Government
+Arts,Bachelor of Science (Hospitality & Hotel Administration),Hospitality,Tourism
+Arts,Bachelor of Arts (Criminology),Law,Public Service
+Arts,Bachelor of Arts (Geography),Humanities,Environment

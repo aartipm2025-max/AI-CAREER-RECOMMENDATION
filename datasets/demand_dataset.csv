@@ -1,0 +1,20 @@
+domain,demand_growth_percent,hiring_volume_score,evidence,primary_source
+Data Science & AI,34,9.0,Data science jobs projected to grow 34% by 2032,BLS
+Healthcare,18,8.5,Healthcare sector creating large number of jobs due to ageing population,WHO
+Biotechnology,12,6.0,Steady growth in life sciences R&D,NASSCOM
+Finance & Accounting,15,8.0,Growing complexity in global finance regulations driving demand for CA,PwC
+Business,7,5.5,Generic business roles showing stable growth,LinkedIn
+Management,10,7.0,Middle management roles recovering post-pandemic,Monster
+Economics,14,6.5,Economic consultants in high demand for policy analysis,World Bank
+Psychology,12,6.0,Mental health awareness driving demand for psychologists,APA
+Law,11,7.5,Legal services demand rising in corporate sectors,Bar Council
+Design,20,8.0,UI/UX and creative roles seeing rapid expansion,Adobe
+Technology,25,8.5,Global digital transformation driving IT infrastructure and software demand,Gartner
+Corporate Governance,12,7.0,Increased regulatory scrutiny and corporate compliance needs,ICSI
+Media & Communication,11,6.5,Expansion of digital media and PR sectors globally,Nielsen
+Science & Research,14,6.0,Increasing investment in forensic and specialized research labs,Government of India
+Life Sciences,13,6.5,Agriculture and life sciences seeing tech-driven productivity shifts,FAO
+Humanities,8,5.0,Social sectors and education seeing stable demand for specialized roles,LinkedIn
+Hospitality,15,7.5,Post-pandemic recovery in global travel and tourism sectors,WTTC
+Public Service,10,7.0,Stable recruitment in administrative and governance roles,UPSC
+Creative,14,6.5,Digital content creation driving needs for fine arts and design,Behance

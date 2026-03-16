@@ -1,0 +1,15 @@
+.env
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.streamlit/
+*.csv.txt
+datasetssalary_dataset.csv.txt
+datasetssalary_rank_dataset.csv.txt
+datasetsdemand_dataset.csv.txt
+datasetsdomain_rank_dataset.csv.txt
+degrees_ranked_dataset.csv.txt
+domain_industry_trends.csv.txt
+career_skills_dataset.csv.txt
+degree_career_paths.csv.txt

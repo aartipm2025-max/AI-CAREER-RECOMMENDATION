@@ -1,0 +1,46 @@
+degree,median_salary_lpa,salary_range_lpa,source
+Bachelor of Science (Data Science),7.0,5–12 LPA,PayScale
+Bachelor of Technology (Artificial Intelligence),7.5,6–15 LPA,Glassdoor
+"Bachelor of Medicine, Bachelor of Surgery (MBBS)",6.0,4–10 LPA,NMC
+Bachelor of Science (Biotechnology),4.5,3–8 LPA,BioProcess
+Bachelor of Technology (Computer Science & Engineering),6.8,5–14 LPA,Glassdoor
+Bachelor of Science (Nursing),3.5,2–6 LPA,Nursing Council
+Bachelor of Pharmacy (BPharm),4.0,3–8 LPA,Pharmacy Council
+Bachelor of Science (Physiotherapy),4.5,3–9 LPA,IAP
+Bachelor of Technology (Mechanical Engineering),5.5,4–12 LPA,Glassdoor
+Bachelor of Technology (Civil Engineering),5.0,4–10 LPA,Indeed
+Bachelor of Technology (Electronics & Communication Engineering),6.5,4–14 LPA,LinkedIn
+Bachelor of Science (Cyber Security),7.2,6–16 LPA,NASSCOM
+Bachelor of Science (Agriculture),3.8,2–7 LPA,ICAR
+Bachelor of Architecture (BArch),5.2,4–10 LPA,COA
+Bachelor of Science (Forensic Science),4.8,3–9 LPA,DFS
+Chartered Accountancy (CA),8.0,6–20 LPA,ICAI
+Bachelor of Commerce (BCom),3.5,2–6 LPA,Glassdoor
+Bachelor of Business Administration (BBA),4.0,3–7 LPA,Indeed
+Bachelor of Management Studies (BMS),4.2,3–7 LPA,Indeed
+Company Secretary (CS),6.5,4–15 LPA,ICSI
+Bachelor of Commerce (Finance and Accountancy),4.5,3–8 LPA,Indeed
+Bachelor of Financial Markets (BFM),4.8,3–10 LPA,LinkedIn
+Bachelor of Banking and Insurance (BBI),4.2,3–8 LPA,Glassdoor
+Bachelor of Business Administration (International Business),5.0,4–12 LPA,Indeed
+Bachelor of Commerce (Digital Marketing),4.5,3–10 LPA,LinkedIn
+Bachelor of Business Administration (HR Management),4.3,3–9 LPA,Indeed
+Bachelor of Business Administration (Supply Chain Management),5.2,4–13 LPA,Gartner
+Bachelor of Commerce (Information Technology),4.8,3–10 LPA,Glassdoor
+Bachelor of Commerce (Actuarial Science),8.5,6–25 LPA,IAI
+Bachelor of Business Administration (Entrepreneurship),5.5,4–15 LPA,LinkedIn
+Bachelor of Arts (Economics),5.5,4–10 LPA,LinkedIn
+Bachelor of Arts (Psychology),4.0,3–7 LPA,Indeed
+Bachelor of Laws (LLB),6.5,4–12 LPA,LegalIndia
+Bachelor of Design (BDes),5.0,4–9 LPA,Behance
+Bachelor of Arts (Journalism),4.2,3–8 LPA,LinkedIn
+Bachelor of Arts (Sociology),3.5,2–6 LPA,Indeed
+Bachelor of Arts (Political Science),3.8,2–7 LPA,Glassdoor
+Bachelor of Arts (History),3.2,2–6 LPA,Indeed
+Bachelor of Arts (English Literature),4.0,3–8 LPA,LinkedIn
+Bachelor of Fine Arts (BFA),4.5,3–10 LPA,Behance
+Bachelor of Mass Media (BMM),4.2,3–9 LPA,Nielsen
+Bachelor of Arts (Public Administration),4.0,3–8 LPA,UPSC
+Bachelor of Science (Hospitality & Hotel Administration),4.5,3–12 LPA,NCHMCT
+Bachelor of Arts (Criminology),4.5,3–9 LPA,LinkedIn
+Bachelor of Arts (Geography),3.6,2–7 LPA,Indeed
