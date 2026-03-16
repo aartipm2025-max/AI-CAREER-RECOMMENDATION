@@ -107,22 +107,26 @@ st.markdown("""
     }
 
     /* Button Styling */
+    .stButton {
+        display: flex;
+        justify-content: center;
+    }
     .stButton>button {
-        width: 100%;
+        width: 320px;
         border-radius: 12px;
         height: 3.8em;
-        background: linear-gradient(90deg, #3A86FF 0%, #8338EC 100%);
+        background: linear-gradient(90deg, #FF4D6D 0%, #C9184A 100%);
         color: white;
         font-weight: 700;
         font-size: 1.1rem;
         border: none;
         transition: all 0.3s ease;
         margin-top: 1.5rem;
-        box-shadow: 0 4px 15px rgba(58, 134, 255, 0.3);
+        box-shadow: 0 4px 15px rgba(255, 77, 109, 0.3);
     }
     .stButton>button:hover {
         transform: translateY(-2px);
-        box-shadow: 0 8px 20px rgba(58, 134, 255, 0.4);
+        box-shadow: 0 8px 20px rgba(255, 77, 109, 0.4);
         filter: brightness(1.1);
         color: white;
         border: none;
@@ -159,7 +163,7 @@ st.markdown("""
     .rank-1 { background: linear-gradient(135deg, #FFD700, #FFA500); color: #78350f; }
     .rank-2 { background: linear-gradient(135deg, #C0C0C0, #808080); color: #334155; }
     .rank-3 { background: linear-gradient(135deg, #CD7F32, #8B4513); color: #fff; }
-    .rank-other { background: #3A86FF; color: white; }
+    .rank-other { background: #FF758F; color: white; }
     
     .degree-header {
         display: flex;
@@ -213,8 +217,8 @@ st.markdown("""
         margin-bottom: 1.5rem;
     }
     .tag {
-        background: #eff6ff;
-        color: #3b82f6;
+        background: #FFF0F3;
+        color: #C9184A;
         padding: 4px 12px;
         border-radius: 50px;
         font-size: 0.875rem;
@@ -240,7 +244,7 @@ st.markdown("""
         width: 10px;
         height: 10px;
         border-radius: 50%;
-        background: #3A86FF;
+        background: #FF4D6D;
         flex-shrink: 0;
     }
     .step-text { font-size: 0.95rem; color: #475569; font-weight: 500;}
@@ -307,9 +311,7 @@ def main():
             label_visibility="collapsed"
         )
         
-        st.markdown('<div style="display: flex; justify-content: center; width: 100%;">', unsafe_allow_html=True)
         show_btn = st.button("Show Best Degree Options")
-        st.markdown('</div>', unsafe_allow_html=True)
 
     # Results Section
     if show_btn or 'results' in st.session_state:
