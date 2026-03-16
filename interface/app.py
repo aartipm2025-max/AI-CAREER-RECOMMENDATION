@@ -109,31 +109,29 @@ st.markdown("""
     }
 
     /* Button Styling */
-    .stButton-centered {
+    div.stButton {
         display: flex;
         justify-content: center;
-        width: 100%;
         margin-top: 2rem;
     }
     .stButton>button {
         width: 320px !important;
         border-radius: 12px;
         height: 3.8em;
-        background: linear-gradient(90deg, #FF4D6D 0%, #C9184A 100%);
-        color: white;
+        background-color: #000000 !important;
+        color: white !important;
         font-weight: 700;
         font-size: 1.1rem;
-        border: none;
+        border: none !important;
         transition: all 0.3s ease;
-        margin-top: 1.5rem;
-        box-shadow: 0 4px 15px rgba(255, 77, 109, 0.3);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     }
     .stButton>button:hover {
         transform: translateY(-2px);
-        box-shadow: 0 8px 20px rgba(255, 77, 109, 0.4);
-        filter: brightness(1.1);
-        color: white;
-        border: none;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+        background-color: #1e293b !important;
+        color: white !important;
+        border: none !important;
     }
 
     /* Result Card Styling */
@@ -315,9 +313,7 @@ def main():
             label_visibility="collapsed"
         )
         
-        st.markdown('<div class="stButton-centered">', unsafe_allow_html=True)
         show_btn = st.button("Show Best Degree Options")
-        st.markdown('</div>', unsafe_allow_html=True)
 
     # Results Section
     if show_btn or 'results' in st.session_state:
