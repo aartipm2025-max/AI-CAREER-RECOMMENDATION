@@ -57,7 +57,7 @@ st.markdown("""
     header {visibility: hidden;}
 
     .main {
-        background: linear-gradient(180deg, #FFF9FA 0%, #FFE6EB 100%);
+        background: #FFE6EB; /* Solid Baby Pink */
     }
 
     /* Hero Section */
@@ -154,18 +154,23 @@ st.markdown("""
         border-radius: 12px;
         font-weight: 800;
         font-size: 1.25rem;
-        margin-bottom: 1.5rem;
+        margin-right: 1.5rem;
     }
     .rank-1 { background: linear-gradient(135deg, #FFD700, #FFA500); color: #78350f; }
     .rank-2 { background: linear-gradient(135deg, #C0C0C0, #808080); color: #334155; }
     .rank-3 { background: linear-gradient(135deg, #CD7F32, #8B4513); color: #fff; }
     .rank-other { background: #3A86FF; color: white; }
     
+    .degree-header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
     .degree-title {
         font-size: 2rem;
         font-weight: 800;
         color: #0f172a;
-        margin-bottom: 1.5rem;
+        margin-bottom: 0;
     }
     
     .metrics-grid {
@@ -302,7 +307,9 @@ def main():
             label_visibility="collapsed"
         )
         
+        st.markdown('<div style="display: flex; justify-content: center; width: 100%;">', unsafe_allow_html=True)
         show_btn = st.button("Show Best Degree Options")
+        st.markdown('</div>', unsafe_allow_html=True)
 
     # Results Section
     if show_btn or 'results' in st.session_state:
@@ -356,8 +363,8 @@ def main():
                     skills_html = "".join([f'<span class="tag tag-skill">{s}</span>' for s in skills])
                     path_html = "".join([f'<div class="step"><div class="step-circle"></div><div class="step-text">{p}</div></div>' for p in career_path])
 
-                    # Condensed HTML to prevent Markdown parser interference
-                    card_html = f'<div class="result-card fade-in" style="animation-delay: {idx * 0.1}s;"><div class="rank-badge {rank_class}">#{rank}</div><div class="degree-title">{domain_icon} {degree}</div><div class="metrics-grid"><div class="metric-pill"><div class="metric-pill-label">💰 Median Salary</div><div class="metric-pill-val salary">{salary}</div></div><div class="metric-pill"><div class="metric-pill-label">📈 Demand Growth</div><div class="metric-pill-val">{growth}</div></div></div><p style="color: #475569; line-height: 1.6; margin-bottom: 2rem;">{reason}</p><div class="intel-section"><div class="intel-header">💼 Top Career Roles</div><div class="tag-container">{roles_html}</div><div class="intel-header">🛠️ Required Skills</div><div class="tag-container">{skills_html}</div><div class="intel-header">🚀 Career Progression</div><div class="career-path-stepper">{path_html}</div></div><div style="margin-top: 2rem; color: #94a3b8; font-size: 0.85rem; border-top: 1px solid #f1f5f9; padding-top: 1rem;">📄 Source: {source}</div></div>'
+                    # Condensed HTML with Flex Header for Rank + Title
+                    card_html = f'<div class="result-card fade-in" style="animation-delay: {idx * 0.1}s;"><div class="degree-header"><div class="rank-badge {rank_class}">#{rank}</div><div class="degree-title">{domain_icon} {degree}</div></div><div class="metrics-grid"><div class="metric-pill"><div class="metric-pill-label">💰 Median Salary</div><div class="metric-pill-val salary">{salary}</div></div><div class="metric-pill"><div class="metric-pill-label">📈 Demand Growth</div><div class="metric-pill-val">{growth}</div></div></div><p style="color: #475569; line-height: 1.6; margin-bottom: 2rem;">{reason}</p><div class="intel-section"><div class="intel-header">💼 Top Career Roles</div><div class="tag-container">{roles_html}</div><div class="intel-header">🛠️ Required Skills</div><div class="tag-container">{skills_html}</div><div class="intel-header">🚀 Career Progression</div><div class="career-path-stepper">{path_html}</div></div><div style="margin-top: 2rem; color: #94a3b8; font-size: 0.85rem; border-top: 1px solid #f1f5f9; padding-top: 1rem;">📄 Source: {source}</div></div>'
                     all_cards_html += card_html
                 
                 st.markdown(all_cards_html, unsafe_allow_html=True)
