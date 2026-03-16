@@ -113,6 +113,7 @@ st.markdown("""
         display: flex;
         justify-content: center;
         margin-top: 2rem;
+        width: 100%;
     }
     .stButton>button {
         width: 320px !important;
@@ -302,8 +303,8 @@ def main():
             st.error(f"Failed to initialize system: {e}")
             return
 
-    # Main Layout
-    col1, col2, col3 = st.columns([1, 2.5, 1])
+    # Main Input Layout
+    col1, col2, col3 = st.columns([1, 2, 1])
     with col2:
         st.markdown('<div class="input-card"><div class="input-title">Choose Your Academic Stream</div><div class="input-helper">Select your stream to discover the highest value degree options.</div></div>', unsafe_allow_html=True)
         
@@ -313,7 +314,10 @@ def main():
             label_visibility="collapsed"
         )
         
-        show_btn = st.button("Show Best Degree Options")
+        # Center the button using columns inside the main container to ensure balance
+        _, btn_mid, _ = st.columns([1, 2, 1])
+        with btn_mid:
+            show_btn = st.button("Show Best Degree Options")
 
     # Results Section
     if show_btn or 'results' in st.session_state:
