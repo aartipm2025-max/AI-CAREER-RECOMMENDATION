@@ -48,16 +48,18 @@ st.markdown("""
         font-family: 'Inter', sans-serif;
     }
 
-    [data-testid="stSidebar"] {
-        display: none;
+    /* Global Background Fix */
+    [data-testid="stAppViewContainer"], [data-testid="stHeader"], .main {
+        background-color: #FFE6EB !important;
     }
-    
+
     #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
-    header {visibility: hidden;}
+    header {visibility: hidden; background-color: transparent !important;}
 
-    .main {
-        background: #FFE6EB; /* Solid Baby Pink */
+    /* Transparent Sidebar if it exists */
+    [data-testid="stSidebar"] {
+        background-color: transparent !important;
     }
 
     /* Hero Section */
@@ -107,12 +109,14 @@ st.markdown("""
     }
 
     /* Button Styling */
-    .stButton {
+    .stButton-centered {
         display: flex;
         justify-content: center;
+        width: 100%;
+        margin-top: 2rem;
     }
     .stButton>button {
-        width: 320px;
+        width: 320px !important;
         border-radius: 12px;
         height: 3.8em;
         background: linear-gradient(90deg, #FF4D6D 0%, #C9184A 100%);
@@ -311,7 +315,9 @@ def main():
             label_visibility="collapsed"
         )
         
+        st.markdown('<div class="stButton-centered">', unsafe_allow_html=True)
         show_btn = st.button("Show Best Degree Options")
+        st.markdown('</div>', unsafe_allow_html=True)
 
     # Results Section
     if show_btn or 'results' in st.session_state:
